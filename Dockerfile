@@ -4,6 +4,7 @@ RUN yum install -y \
         git \
         gcc-c++ \
         ca-certificates \
+        kmod \
         wget && \
     rm -rf /var/cache/yum/*
 
